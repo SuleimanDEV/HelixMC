@@ -1,0 +1,6 @@
+name: login
+author: Smart
+version: 1.0.0
+main: club.helix.lobby.login.LoginLobby
+description: "[api-components, api-bukkit]"
+depend: [api]

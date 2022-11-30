@@ -1,0 +1,6 @@
+name: lava
+author: Smart
+version: 1.0.0
+main: club.helix.pvp.lava.PvPLava
+description: "[api-components, api-bukkit]"
+depend: [api]

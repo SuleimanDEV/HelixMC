@@ -1,0 +1,15 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'club.helix.duels.gladiator'
+version '1.0.0-SNAPSHOT'
+
+dependencies {
+    implementation project(":helix-game-duels:duels-api")
+    implementation project(":helix-game-duels:duels-game-api")
+    compileOnly name: 'worldedit-bukkit-6.1.3'
+    compileOnly name: 'spigot-1.8.8-R0.1-SNAPSHOT-latest'
+    compileOnly project(":helix-api-bukkit")
+    compileOnly project(":helix-api-components")
+}

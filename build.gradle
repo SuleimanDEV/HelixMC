@@ -1,0 +1,19 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.30'
+}
+
+group 'club.helix.api'
+version '1.0.0-SNAPSHOT'
+
+allprojects {
+    group = 'club.helix.api'
+    version = '1.0.0-SNAPSHOT'
+    sourceSets.main.java.srcDirs = ["src/main/kotlin"]
+
+    repositories {
+        mavenCentral()
+        flatDir{ dirs "$rootProject.projectDir/libs"}
+
+        maven { url 'https://jitpack.io' }
+    }
+}

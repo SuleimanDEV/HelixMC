@@ -1,0 +1,24 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'club.helix.lobby.main'
+version '822073e'
+
+repositories {
+    maven { url "https://repo.dmulloy2.net/repository/public/" }
+}
+
+dependencies {
+    compileOnly name: 'Citizens'
+    compileOnly name: 'spigot-1.8.8-R0.1-SNAPSHOT-latest'
+    compileOnly project(":helix-api-bukkit")
+    compileOnly project(":helix-api-components")
+    compileOnly project(":helix-inventory-manager")
+    compileOnly project(":helix-lobbies:provider-lobby")
+    compileOnly project(":helix-hologram")
+    compileOnly 'com.squareup.moshi:moshi-kotlin:1.12.0'
+    compileOnly 'net.oneandone.reflections8:reflections8:0.11.7'
+    compileOnly 'redis.clients:jedis:3.6.3'
+    compileOnly "com.comphenix.protocol:ProtocolLib:4.7.0"
+}

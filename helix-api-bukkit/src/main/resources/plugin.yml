@@ -1,0 +1,6 @@
+name: api
+author: Smart
+version: 1.0.0-SNAPSHOT
+main: club.helix.bukkit.HelixBukkit
+description: "[api-components]"
+depend: [Citizens]

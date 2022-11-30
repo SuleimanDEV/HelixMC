@@ -1,0 +1,6 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'club.helix.duels'
+version '1.0.0-SNAPSHOT'

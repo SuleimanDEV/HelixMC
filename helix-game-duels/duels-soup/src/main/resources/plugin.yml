@@ -1,0 +1,6 @@
+name: duels-soup
+author: Smart
+version: 1.0.0-SNAPSHOT
+main: club.helix.duels.soup.SoupPlugin
+description: "[api-components, api-bukkit, duels-game-api]"
+depend: [api]

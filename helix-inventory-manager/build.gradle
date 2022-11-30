@@ -1,0 +1,12 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+    id 'java'
+}
+
+group 'club.helix.inventory'
+version '1.0.0'
+
+dependencies {
+    compileOnly name: 'spigot-1.8.8-R0.1-SNAPSHOT-latest'
+    implementation project(':helix-api-components')
+}

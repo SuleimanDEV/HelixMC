@@ -1,0 +1,6 @@
+name: duels-gladiator
+author: Smart
+version: 1.0.0-SNAPSHOT
+main: club.helix.duels.gladiator.GladiatorPlugin
+description: "[api-components, api-bukkit, duels-game-api]"
+depend: [api]

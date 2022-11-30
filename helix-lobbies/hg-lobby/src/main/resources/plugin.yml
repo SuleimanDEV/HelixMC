@@ -1,0 +1,6 @@
+name: lobby
+author: Smart
+version: 1.0.0-SNAPSHOT
+main: club.helix.lobby.hg.HgLobby
+description: "[api-components, api-bukkit, provider-lobby]"
+depend: [api, provider-lobby]

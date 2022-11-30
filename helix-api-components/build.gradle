@@ -1,0 +1,15 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.6.10'
+}
+
+group 'club.helix.api'
+version '1.0.0'
+
+dependencies {
+    compileOnly("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1")
+    compileOnly 'com.google.code.gson:gson:2.8.9'
+    implementation 'net.oneandone.reflections8:reflections8:0.11.7'
+    compileOnly 'com.squareup.moshi:moshi-kotlin:1.12.0'
+    compileOnly 'redis.clients:jedis:3.6.3'
+}

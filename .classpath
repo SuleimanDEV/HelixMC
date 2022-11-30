@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="helix-api-bukkit/src/main/kotlin"/>
+	<classpathentry kind="src" path="helix-game-duels/duels-game-api/src/main/kotlin"/>
+	<classpathentry kind="src" path="helix-game-event/src/main/kotlin"/>
+	<classpathentry kind="src" path="helix-game-hg/hg-mix/src/main/kotlin"/>
+	<classpathentry kind="src" path="helix-game-pvp/pvp-arena/src/main/kotlin"/>
+	<classpathentry kind="src" path="helix-inventory-manager/src/main/java"/>
+	<classpathentry kind="src" path="helix-lobbies/login-lobby/src/main/kotlin"/>
+	<classpathentry kind="lib" path="build/libs/Helix-1.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="helix-api-components/build/libs/helix-api-components-1.0.0.jar"/>
+	<classpathentry kind="lib" path="helix-hologram/build/libs/helix-hologram-1.0.0.jar"/>
+	<classpathentry kind="lib" path="helix-inventory-manager/build/libs/helix-inventory-manager-1.0.0.jar"/>
+	<classpathentry kind="lib" path="libs/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="output" path="helix-inventory-manager/build/classes/java/main"/>
+</classpath>

@@ -1,0 +1,6 @@
+name: event
+author: Smart
+version: 1.0.0-SNAPSHOT
+main: club.helix.event.EventPlugin
+description: "[api-components]"
+depend: [api]

@@ -1,0 +1,17 @@
+package club.helix.lobby.pvp.npc
+
+import club.helix.bukkit.HelixBukkit
+import club.helix.components.server.HelixServer
+import club.helix.lobby.provider.npc.DisplayNpcServer
+import org.bukkit.Location
+
+class LavaChallengeNpc: DisplayNpcServer(
+    arrayOf("§bLava Challenge"),
+    HelixServer.PVP,
+    HelixServer.Category.PVP_LAVA,
+    HelixServer.Category.PVP_LAVA,
+    "skin4c6637ba",
+    "eyJ0aW1lc3RhbXAiOjE1NTk5NjUyNDY4OTgsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliMWI0MmI2NGIxYzYxMDAwNTI0YWQ0MTZiNGFhMzMzMzkxMzVjODQ1Mzg2ODRhODhlMjhlYTEyMGUyYjVhMDcifX19",
+    "qr4CfPKqjhIRCzj6JehRUEv0zLVVJg+XC4s6EWU4qRr91BtHKRhNRDbwfuIeSRjM2qsb2rZdieeemDEZl805QOmY1wkWk1BviETTeX6HheSw/i6xt1AkuKo1s6Ehti2A9EsxsYeEwkZ+AHorvtWmmE46zz9P0ztr+K0DYgGf24soUb5y+Bwkl1Q6wekyzExH9E9qUUGOfUZSdgjzhvQeSAW+/CLdfPSeCO4kxUf01a95FVvHTH7srPeOdTz5PGii5DrWTmPmb8pdU2lI1JjCcVZuYJGjwIBfAe1733wds9ouRnOrY2Rm4XzT3k/F38A2HgkbyV+w8zMUxvEUHiWnD+5cRH9sr2ES8lqlbZb6LDlrQ2sOcO/jPSJ9XP6zuAIrs3VxVrQwueUyhWxRsdVOxgH9fA1VlbpHqo8NMOwtYq1xiaL7VsNJjA+9l0HOEtqkg/Fb4hvxV7HNNisUWtF1Fjbdrb3qACISEG3WBbbg7IpX92zy9OCKOOt4T/RzRiuYzKB9s+h6ArmsOqD8LfmVfCcgVh4Voiy0FO/JrkURF854M3FfnGfLMhvkkp4XWp9a1AgZX8yPBOPMEdZ39f2/wL7luFwtbhxiPksC1HfqDwzTVsnJRcYcRxV9k2FcDDDkfoXJZ+QryGgeHb1sI6YWgq+stL6/X92efN10sxDCB4Q=",
+    Location(HelixBukkit.instance.world, 28.487918173842726, 74.0, -7.505853594528964, 88.95004f, -1.9500189f)
+)

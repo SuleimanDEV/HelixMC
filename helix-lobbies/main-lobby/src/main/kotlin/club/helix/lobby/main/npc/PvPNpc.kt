@@ -1,0 +1,16 @@
+package club.helix.lobby.main.npc
+
+import club.helix.bukkit.HelixBukkit
+import club.helix.components.server.HelixServer
+import club.helix.lobby.provider.npc.DisplayNpcServer
+import org.bukkit.Location
+
+class PvPNpc: DisplayNpcServer(
+    arrayOf("§bPvP"),
+    HelixServer.PVP, null,
+    HelixServer.Category.LOBBY,
+    "Mushroom",
+    "ewogICJ0aW1lc3RhbXAiIDogMTYzMzA1ODIyNjYxNywKICAicHJvZmlsZUlkIiA6ICI3ZGE3MTNjOWIxZDY0NmFkODRiMjk0OGEyZmM5MDViMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNdXNocm9vbSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNzg1MWI1ZTQwNmMzMTcwZTFmODhiOWM4MDA0OTA2NzZmOGM0MWYyODUxNmMwNWFlZThkYjJkNmQzOWJhODNmIgogICAgfQogIH0KfQ==",
+    "v8+dGpkLLCZ0hjU0iSxN8EldI16NTpna5FCXAbdWHzXPAn9S4fRxIWEdX4tOYkD6JgqV7hI/LE8DS6bqAP2nyIt85TY+L2/CWX+lYVY6HJ2SCXxZSKuHtKVsl/nacEc+I0m2P0eyrGGCLtpn1PirGRX/QJIzZJYNyN8LgBv7EAeM7/1rBSzNfQH2i2ApHKJl1NzGG2z80/I9GII40GTWFfCyOzSTXF6p6el0ozyrF779Ymxd1idC8SSj35kwbDfAI9rSgo5czJVr8itMHtMAzDk62S6JDbmBNkEAMf3heH5HFLDjisZy5CHMyA2KderLdt1VLHcb3N9AGwdn/cctlYa2pcznSn+v+n33VGGNA+BXuDyR1qjaPbG8wZmE13KhQHYLpvQpsx3CfGEoBhF2VCndlnGsEz2Gi9PZi3nPxTjonMzeZA6nCDw4QrFPUDZEYr3KzAKZ0zeFaPtBEhqSppLL+lfHHNrnevFVGC7N7HqqDVKFtFEWXOQTGBmWuoqNlDjXKpfww+07jR3pV0c1GPHMCvr9Mjv7PwqvMl9NHysV/6hP0NonBiJ0JJQUlyGe3GCA7hJwQEwDMpPs+AwzBvkc0s0tEos2PHr2hsZpAXPK14wHkhsvzwEFUF4TETHjJhaeOsk5JnOxT16ar36QZU89XdTyivc90ZLSBCuWqy0=",
+    Location(HelixBukkit.instance.world, 3.5004320285871082, 75.0, 17.475168598266137, 178.19987f, -1.3499942f)
+)

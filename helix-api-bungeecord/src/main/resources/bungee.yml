@@ -1,0 +1,5 @@
+name: api
+author: Smart
+version: 1.0.0-SNAPSHOT
+main: club.helix.bungeecord.HelixBungee
+description: "[api-components]"

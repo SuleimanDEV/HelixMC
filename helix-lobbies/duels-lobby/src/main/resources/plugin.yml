@@ -1,0 +1,6 @@
+name: lobby
+author: Smart
+version: 1.0.0
+main: club.helix.lobby.duels.DuelsLobby
+description: "[api-components, api-bukkit, provider-lobby]"
+depend: [api, provider-lobby]

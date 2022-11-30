@@ -1,0 +1,14 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'club.helix.event'
+version '1.0.0-SNAPSHOT'
+
+dependencies {
+    compileOnly name: 'spigot-1.8.8-R0.1-SNAPSHOT-latest'
+    compileOnly project(":helix-api-bukkit")
+    compileOnly project(":helix-api-components")
+    compileOnly project(":helix-inventory-manager")
+    implementation 'org.jetbrains.kotlin:kotlin-reflect:1.6.0'
+}

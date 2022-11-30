@@ -1,0 +1,17 @@
+package club.helix.lobby.pvp.npc
+
+import club.helix.bukkit.HelixBukkit
+import club.helix.components.server.HelixServer
+import club.helix.lobby.provider.npc.DisplayNpcServer
+import org.bukkit.Location
+
+class FpsNpc: DisplayNpcServer(
+    arrayOf("§bFPS"),
+    HelixServer.PVP,
+    HelixServer.Category.PVP_FPS,
+    HelixServer.Category.PVP_FPS,
+    "skin960a074a",
+    "ewogICJ0aW1lc3RhbXAiIDogMTYxMTk0MTgxMTM1MiwKICAicHJvZmlsZUlkIiA6ICJmMGIzYmRkMjEwNDg0Y2VlYjZhNTQyYmZiOGEyNTdiMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbm9uaW1ZVFQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFhZWU2OGQzYjQ5OGViNzUzZjc1MzQ1ODEyNDk1OGYxN2E4OTc3MDNhMjNkODdlYmEzZDM0NzFhNTg1NDU0NCIKICAgIH0KICB9Cn0=",
+    "LdexA+MdBtpNFdyeTUnQv4feYDrvntlFXiMirBNO/oCbiGANc8j5OGVe6j8xKhYHPftlUEYKCHJsCaz9tMhXVssXqtkD3mhw7DlkCrrq3CWcZB79DjBSQbhvjFnHu2MtLZF99D1F4HcMe55LrCpSnzK32PZO6o46oi4N/9fjmTsPATemmMQICVra9jPw424hp34cYIvwlYeQCEz9p2CVvjIpLqyHyBnexD0+IXtFA4HpdArD9YN53vlGKQF+s/I5elYbbhwVETSDkpPlCJQ2zQAiJABF24oiZM12lkv4TJ/8RMoz+AiAzVSjZbC2YoDDbHVIqA88CTThgUer5CoeqFDzx6+7RLu+1djsfD+RRU5Sp+KQ84ut8JBFg77jtnKsQbYbybbLkbZssQz/yVFxFLWNwWS3oywluu8U9rB8TXp+ED2DAbUdEm4EvwWYwENd4F0evnt754kBq5cQQnjsNsvlvcQe2d5J0VZhYIHG4Je9d1qbjRBqbOX7xfhS1wCHS40jHoZCeFPwpXdqaC0AuM4HCCegzDAYerktkXh1hAvNSTN/JRfOCEmeuHhXpEjgP7wAn5VIbJkD03OIbMhb8+Emvsl0mQxzDCyrWq/TCIP0qQ9468gzlqTR6xTWjWuOFVSxlOEm3rfRn+gazKshr38N3IgHQ4KzrXFn6sv6Ge0=",
+    Location(HelixBukkit.instance.world, 28.449439839493504, 74.0, 8.495840918448678, 91.20007f, -3.1500363f)
+)

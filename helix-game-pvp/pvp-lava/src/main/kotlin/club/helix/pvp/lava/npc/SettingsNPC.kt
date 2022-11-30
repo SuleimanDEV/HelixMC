@@ -1,0 +1,18 @@
+package club.helix.pvp.lava.npc
+
+import club.helix.bukkit.HelixBukkit
+import club.helix.bukkit.npc.HelixSimpleNPC
+import club.helix.pvp.lava.inventory.SettingsInventory
+import org.bukkit.Location
+import org.bukkit.entity.Player
+
+class SettingsNPC: HelixSimpleNPC(
+    arrayOf("§e§lCONFIGURAÇÕES", "§7(Clique aqui)"),
+    "skin96f67083",
+    "ewogICJ0aW1lc3RhbXAiIDogMTU5NzYyMjk3NjYzMSwKICAicHJvZmlsZUlkIiA6ICJlYTUwMjkwYzgyMjU0MjIyODY2NDMyZjJmNTA3MDk3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb25maWciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y2ZjhlODEzMzBkZWYxNzZkMmQ1MmE1OWJmNmFmN2IyN2QwNmFjYjc1NzQ5ZmIxZTk0MzgzMGQwMTYyYzk0NSIKICAgIH0KICB9Cn0=",
+    "C8Hnux2bSAl656rZPLFpZJIQa5d+O80Ujq9ts4fBQeFKt9uEE3VRnSpEsObuVPXV1Jl0oWmbi4XWLVu+Ny64YpTY4WWmgzalYYLzN4qdYVpF1Pml9uulPhSSDNf3H6Yaap4QbMF+uIXKhiHKwI6LI88QHv0aLwFd96miFcgZD7ZmS6Iaa7oRTK/o9kGrY9yC+3z4E7ZAqXZ3vX9lcEioBD9PUxmDM1rSC7tSxY6FF0ZvCBJzf6r3Rgb+v41btv6UFfS0BrXpMCBHPegf7+KdyXXFJC9juQUGyVHhEg2miiMwXwVKUPnRAfo0Mm+RHh3xH+CCtbfWZs0G8/8lmxcxUh+xWmgtRipDWPYSeVwZmxvXlMLa9bNFSX2TfTQcxxoNEZbg8d52ND4yYaEyU7NLhTwlg09eEy2kIUkWCMzd9jBDhpZ8/LOycwz7OQFCgPpUk3cALWkLSr3V9tIRl9V87VHDAiUDoFI/4qFguR3mOA23l9kq65fdBpnHKqT3hzGGOBkQbJyFI34n8bEXAznhHNPsEJs7bqxd5SNQT+0tlkd/YiDChQZx+lPOZplrBu1sWr6pWPlfTsXznCkCTGUEwDGKN8mRyutaDiGEnIQKggFcW/M3QRIFt2Su0rK8C4lNzJnMy9vIstWR9HAQNedGb5s7GccIU9m3tjTObeTWV5Q=",
+    Location(HelixBukkit.instance.world, 4.157025632908697, 64.0, -7.439238123959685, 28.649963f, -2.5500057f)
+) {
+
+    fun load() = spawn { SettingsInventory.open(it.clicker as Player) }
+}

@@ -1,0 +1,6 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'club.helix.api'
+version '822073e'

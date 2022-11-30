@@ -1,0 +1,14 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'club.helix.lobby.login'
+version '1.0.0-SNAPSHOT'
+
+dependencies {
+    compileOnly "org.mindrot:jbcrypt:0.4"
+    compileOnly name: 'spigot-1.8.8-R0.1-SNAPSHOT-latest'
+    compileOnly project(":helix-api-bukkit")
+    compileOnly project(":helix-api-components")
+    compileOnly project(":helix-inventory-manager")
+}

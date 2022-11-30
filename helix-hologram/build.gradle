@@ -1,0 +1,15 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'club.helix.hologram'
+version '1.0.0'
+
+repositories {
+    maven { url "https://repo.dmulloy2.net/repository/public/" }
+}
+
+dependencies {
+    compileOnly name: "spigot-1.8.8-R0.1-SNAPSHOT-latest"
+    compileOnly "com.comphenix.protocol:ProtocolLib:4.7.0"
+}

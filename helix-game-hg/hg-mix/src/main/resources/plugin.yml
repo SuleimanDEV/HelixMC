@@ -1,0 +1,6 @@
+name: hg-mix
+author: Smart
+version: 1.0.0-SNAPSHOT
+main: club.helix.hg.HgPlugin
+description: "[api-components, api-bukkit]"
+depend: [api]

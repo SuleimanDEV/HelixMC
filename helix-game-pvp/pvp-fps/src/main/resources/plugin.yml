@@ -1,0 +1,6 @@
+name: pvp-fps
+author: Smart
+version: 1.0.0-SNAPSHOT
+main: club.helix.pvp.fps.PvPFps
+description: "[api-components, api-bukkit, pvp-game-api]"
+depend: [api]

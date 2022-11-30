@@ -1,0 +1,66 @@
+ranks:
+  DEFAULT:
+    permissions:
+      - "litebans.notify.clearchat"
+      - "litebans.notify.mutechat"
+      - "litebans.notify.warned.offline"
+      - "litebans.warnings"
+      - "litebans.notify.muted"
+      - "litebans.notify.warned"
+  DIRETOR:
+    permissions: ["*"]
+  ADMIN:
+    aliases: [STAFFS, GERENTE, MODERATION, AJUDANTE]
+  GERENTE:
+    aliases: [ STAFFS, MODERATION, AJUDANTE ]
+    permissions:
+      - "litebans.notify.dupeip_join"
+      - "litebans.history"
+      - "litebans.banlist"
+      - "litebans.staffhistory"
+      - "litebans.lockdown.bypass"
+      - "litebans.unban"
+      - "litebans.unban.own"
+      - "litebans.unmute"
+      - "litebans.unmute.own"
+      - "litebans.kick"
+      - "litebans.clearchat"
+      - "litebans.mutechat"
+      - "litebans.ipmute"
+  MOD_PLUS:
+    aliases: [STAFFS, MODERATION, AJUDANTE]
+  MOD:
+    aliases: [STAFFS, MODERATION, AJUDANTE]
+  AJUDANTE:
+    aliases: [STAFFS, DEFAULT]
+    permissions:
+      - "litebans.mute"
+      - "litebans.tempmute"
+      - "litebans.warn"
+  PROMOTOR:
+    permissions:
+      - "helix.cmd.broadcast"
+  YOUTUBER_PLUS:
+    aliases: [STAFFS, DEFAULT]
+    permissions:
+      - "litebans.ban"
+      - "litebans.tempban"
+      - "litebans.mute"
+      - "litebans.tempmute"
+      - "litebans.group.youtuber+"
+  MODERATION:
+    permissions:
+      - "litebans.ban"
+      - "litebans.tempban"
+      - "litebans.ipban"
+      - "litebans.dupeip"
+  STAFFS:
+    permissions:
+      - "helix.cmd.staffchat"
+      - "litebans.notify.silent"
+      - "litebans.notify.broadcast"
+      - "litebans.mutechat.bypass"
+      - "litebans.warnings.self"
+      - "litebans.checkmute"
+      - "litebans.checkban"
+      - "helix.report"

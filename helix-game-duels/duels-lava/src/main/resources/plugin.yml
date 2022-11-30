@@ -1,0 +1,6 @@
+name: duels-lava
+author: Smart
+version: 1.0.0-SNAPSHOT
+main: club.helix.duels.lava.LavaPlugin
+description: "[api-components, api-bukkit, duels-game-api]"
+depend: [api]

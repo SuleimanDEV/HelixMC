@@ -1,0 +1,150 @@
+ranks:
+  DEFAULT:
+    permissions:
+      - "helix.collectible.santa-claus-hat"
+      - "helix.collectible.iron-man-hat"
+      - "helix.collectible.spiderman-hat"
+      - "helix.collectible.amongus-hat"
+      - "helix.collectible.elf-hat"
+      - "helix.collectible.discord-hat"
+      - "helix.collectible.squid-game-square-hat"
+      - "helix.collectible.mario-hat"
+  DIRETOR:
+    permissions: ["*"]
+  ADMIN:
+    aliases: [STAFFS, VIPS, MODERATION, GERENTE, MOD, AJUDANTE, BUILDER, DESIGNER, YOUTUBER, BETA, ULTRA, PRO, BLADE]
+    permissions:
+      - "helix.tag.admin"
+  GERENTE:
+    aliases: [STAFFS, VIPS, MODERATION, MOD, AJUDANTE, BUILDER, DESIGNER, YOUTUBER, BETA, ULTRA, PRO, BLADE]
+    permissions:
+      - "helix.tag.gerente"
+      - "helix.cmd.broadcast"
+      - "helix.cmd.god"
+      - "helix.cmd.jedis"
+      - "helix.cmd.restorehunger"
+      - "helix.cmd.restorelife"
+      - "helix.cmd.strikelightning"
+      - "helix.cmd.ranks.other"
+      - "helix.cmd.setrank"
+      - "helix.cmd.addrank"
+      - "helix.cmd.removerank"
+      - "helix.rank.mod_plus"
+      - "helix.rank.mod"
+      - "helix.rank.mod_plus"
+      - "helix.rank.ajudante"
+      - "helix.rank.mod_estagiario"
+      - "helix.rank.ajudante_estagiario"
+      - "helix.rank.builder"
+      - "helix.rank.designer"
+      - "helix.rank.ultra"
+      - "helix.rank.vip"
+      - "helix.rank.youtuber"
+      - "helix.rank.blade"
+      - "helix.rank.pro"
+      - "helix.rank.default"
+      - "helix.cmd.rankplayers"
+  MOD_PLUS:
+    aliases: [STAFFS, VIPS, MODERATION, BETA, ULTRA, PRO, BLADE]
+    permissions:
+      - "helix.tag.mod_plus"
+  MOD:
+    aliases: [STAFFS, VIPS, MODERATION, BETA, ULTRA, PRO, BLADE]
+    permissions:
+      - "helix.tag.mod"
+  AJUDANTE:
+    aliases: [STAFFS, VIPS, BETA, ULTRA, PRO, BLADE]
+    permissions:
+      - "helix.tag.ajudante"
+  MOD_ESTAGIARIO:
+    aliases: [STAFFS, VIPS, BETA, ULTRA, PRO, BLADE]
+    permissions:
+      - "helix.tag.mod_estagiario"
+      - "helix.cmd.find"
+      - "helix.cmd.chat"
+      - "helix.cmd.pinfo"
+      - "helix.cmd.staffchat"
+  BUILDER:
+    aliases: [STAFFS, VIPS, BETA, ULTRA, PRO, BLADE]
+    permissions:
+      - "helix.tag.builder"
+  DESIGNER:
+    aliases: [STAFFS, VIPS, BETA, ULTRA, PRO, BLADE]
+    permissions:
+      - "helix.tag.designer"
+  PROMOTOR:
+    permissions:
+      - "helix.tag.promotor"
+      - "helix.cmd.specialitem"
+  YOUTUBER_PLUS:
+    aliases: [STAFFS, MODERATION, VIPS, YOUTUBER, BETA, ULTRA, PRO, BLADE]
+    permissions:
+      - "helix.tag.youtuber_plus"
+  YOUTUBER:
+    aliases: [BETA, VIPS, DEFAULT]
+    permissions:
+      - "helix.tag.youtuber"
+  BETA:
+    aliases: [VIPS, ULTRA, PRO, VIP, BLADE, DEFAULT]
+    permissions:
+      - "helix.tag.beta"
+      - "helix.medal.verified"
+  ULTRA:
+    aliases: [VIPS, PRO, VIP, BLADE, DEFAULT]
+    permissions:
+      - "helix.tag.ultra"
+      - "helix.medal.star"
+      - "helix.medal.yingyang"
+  PRO:
+    aliases: [VIPS, VIP, BLADE, DEFAULT]
+    permissions:
+      - "helix.tag.pro"
+      - "helix.medal.radiation"
+      - "helix.medal.umbrella"
+  VIP:
+    aliases: [VIPS, BLADE, DEFAULT]
+    permissions:
+      - "helix.medal.flash"
+      - "helix.tag.vip"
+  BLADE:
+    aliases: [VIPS, DEFAULT]
+    permissions:
+      - "helix.tag.blade"
+  NATAL:
+    aliases: [DEFAULT]
+    permissions:
+      - "helix.tag.natal"
+      - "helix.medal.gift_hunter"
+  VIPS:
+    permissions:
+      - "helix.medal.amor"
+      - "helix.medal.flor"
+      - "helix.medal.music"
+      - "helix.medal.pazamor"
+      - "helix.medal.coffe"
+      - "helix.collectible.*"
+  STAFFS:
+    permissions:
+      - "helix.cmd.staffchat"
+      - "helix.report"
+      - "helix.cmd.find"
+      - "helix.cmd.online"
+      - "helix.medal.*"
+      - "helix.cmd.chat"
+      - "helix.cmd.onlineplayers"
+      - "helix.cmd.pinfo"
+      - "helix.cmd.staffs"
+      - "helix.chat.color"
+      - "helix.cmd.servers"
+  MODERATION:
+    permissions:
+      - "helix.cmd.clear"
+      - "helix.cmd.connect"
+      - "helix.cmd.gamemode"
+      - "helix.cmd.goto"
+      - "helix.cmd.tp"
+      - "helix.cmd.tphere"
+      - "helix.cmd.tploc"
+      - "helix.cmd.invsee"
+      - "helix.cmd.vanish"
+
