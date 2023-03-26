@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/SuleimanDEV/HelixMC"><img src="https://i.imgur.com/gAV4pl8.png" alt="HelixMC - PLUGINS"></a>
   <br>
-  HelixMC - OpenSource.
+  HelixMC - OpenSource
   <br>
 </h1>
 
